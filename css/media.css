@@ -144,9 +144,6 @@
 
 @media only screen and (max-width: 600px) {
   .start {
-    background-image: url("../img/_MG_0004.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position-x: 45%;
     background-position-y: 30%;
   }
