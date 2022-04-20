@@ -409,7 +409,7 @@ body {
         a {
           display: flex;
           align-items: center;
-          padding: 10px 0 10px 15px;
+          padding: 10px 0 0 15px;
           .instagram_icon {
             background: url("../img/icons/instagram.png") 0 0 no-repeat;
             background-size: 100%;
@@ -430,7 +430,7 @@ body {
     }
     .feed {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       flex-wrap: wrap;
       width: 100%;
       margin: 1% 0;
@@ -451,6 +451,16 @@ body {
             height: 100%;
             object-fit: cover;
             z-index: 2;
+          }
+          .instagram_icon {
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            background: url("../img/icons/instagram.png") no-repeat center;
+            background-size: 100%;
+            z-index: 3;
+            bottom: 5px;
+            right: 5px;
           }
         }
       }
@@ -618,7 +628,7 @@ body {
         font-size: 16px;
         margin: 5px 0 10px 0;
         line-height: 1.2;
-        &:first-of-type{
+        &:first-of-type {
           text-align: center;
         }
         em {

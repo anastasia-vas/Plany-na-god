@@ -639,7 +639,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px 0 10px 15px;
+  padding: 10px 0 0 15px;
 }
 
 .our_instagram .instagram_basis .info .instagram_link a .instagram_icon {
@@ -663,8 +663,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
@@ -697,6 +698,17 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 2;
+}
+
+.our_instagram .instagram_basis .feed a .img .instagram_icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background: url("../img/icons/instagram.png") no-repeat center;
+  background-size: 100%;
+  z-index: 3;
+  bottom: 5px;
+  right: 5px;
 }
 
 .feedback {

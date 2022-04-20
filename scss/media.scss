@@ -257,6 +257,20 @@
       }
     }
   }
+  .our_instagram {
+    .instagram_basis {
+      .feed {
+        a {
+          .img {
+            .instagram_icon {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 410px) {
@@ -317,9 +331,16 @@
     .instagram_basis {
       .feed {
         margin: 0%;
+        justify-content: center;
         a {
           width: 80%;
           margin: 1.5% 0;
+          .img {
+            .instagram_icon {
+              width: 25px;
+              height: 25px;
+            }
+          }
         }
       }
     }

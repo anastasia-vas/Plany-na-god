@@ -201,6 +201,10 @@
     font-size: 14px;
     margin: 5px 0 5px 3px;
   }
+  .our_instagram .instagram_basis .feed a .img .instagram_icon {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media only screen and (max-width: 410px) {
@@ -237,10 +241,17 @@
   }
   .our_instagram .instagram_basis .feed {
     margin: 0%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .our_instagram .instagram_basis .feed a {
     width: 80%;
     margin: 1.5% 0;
+  }
+  .our_instagram .instagram_basis .feed a .img .instagram_icon {
+    width: 25px;
+    height: 25px;
   }
   .feedback .feedback_basis .form {
     width: 80%;

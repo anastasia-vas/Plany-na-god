@@ -25,6 +25,7 @@ function openSlider(el) {
   let productSlider = productItem.nextElementSibling;
   productSlider.style.opacity = "1";
   productSlider.style.zIndex = 12;
+  document.body.classList.add("hidden");
 }
 
 function closeSlider() {
