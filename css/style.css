@@ -204,7 +204,7 @@ body {
   margin: 5px;
   width: 30px;
   height: 30px;
-  background: url("../img/icons/instagram.png") 0 0 no-repeat;
+  background: url("../img/icons/instagram.svg") 0 0 no-repeat;
   background-size: 100%;
 }
 
@@ -348,7 +348,7 @@ body {
 
 .nav .nav_basis .nav_instagram a {
   display: inline-block;
-  background: url("../img/icons/instagram_w.png") 0 0 no-repeat;
+  background: url("../img/icons/instagram_w.svg") 0 0 no-repeat;
   background-size: 100%;
   width: 25px;
   height: 25px;
@@ -495,7 +495,7 @@ body {
   top: 0;
   left: 0;
   content: "";
-  background-image: url("../img/icons/search.png");
+  background-image: url("../img/icons/search.svg");
   background-size: 30px 30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -643,7 +643,7 @@ body {
 }
 
 .our_instagram .instagram_basis .info .instagram_link a .instagram_icon {
-  background: url("../img/icons/instagram.png") 0 0 no-repeat;
+  background: url("../img/icons/instagram.svg") 0 0 no-repeat;
   background-size: 100%;
   width: 25px;
   height: 25px;
@@ -704,7 +704,7 @@ body {
   width: 25px;
   height: 25px;
   position: absolute;
-  background: url("../img/icons/instagram.png") no-repeat center;
+  background: url("../img/icons/instagram.svg") no-repeat center;
   background-size: 100%;
   z-index: 3;
   bottom: 5px;
@@ -750,17 +750,17 @@ body {
 }
 
 .feedback .feedback_basis .social_media .link a .instagram {
-  background: url("../img/icons/instagram.png") 0 0 no-repeat;
+  background: url("../img/icons/instagram.svg") 0 0 no-repeat;
   background-size: 100%;
 }
 
 .feedback .feedback_basis .social_media .link a .tel {
-  background: url("../img/icons/phone.png") 0 0 no-repeat;
+  background: url("../img/icons/phone.svg") 0 0 no-repeat;
   background-size: 100%;
 }
 
 .feedback .feedback_basis .social_media .link a .mail {
-  background: url("../img/icons/email.png") 0 0 no-repeat;
+  background: url("../img/icons/email.svg") 0 0 no-repeat;
   background-size: 100%;
 }
 
