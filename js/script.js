@@ -18,20 +18,17 @@ function closeMobNav() {
   document.body.classList.remove("hidden");
 }
 
-//
 
 function openSlider(el) {
   let productItem = el.parentNode;
   let productSlider = productItem.nextElementSibling;
-  productSlider.style.opacity = "1";
-  productSlider.style.zIndex = 12;
+  productSlider.classList.add("open_slider");
   document.body.classList.add("hidden");
 }
 
 function closeSlider() {
   slider.forEach((el) => {
-    el.style.opacity = "0";
-    el.style.zIndex = -12;
+    el.classList.remove("open_slider");
   });
   document.body.classList.remove("hidden");
 }

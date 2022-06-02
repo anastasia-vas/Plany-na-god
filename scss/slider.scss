@@ -62,14 +62,14 @@
     }
     .slick-prev {
       left: 5%;
-      background: url("../img/icons/slider_arrow.png") 0 0 no-repeat;
+      background: url("../img/icons/slider_arrow.svg") 0 0 no-repeat;
       transform: rotate(180deg);
       background-size: 100%;
       background-position: center;
     }
     .slick-next {
       right: 5%;
-      background: url("../img/icons/slider_arrow.png") 0 0 no-repeat;
+      background: url("../img/icons/slider_arrow.svg") 0 0 no-repeat;
       background-size: 100%;
       background-position: center;
     }
@@ -92,7 +92,7 @@
     display: none;
     justify-content: center;
     position: absolute;
-    background-image: url("../img/icons/gallery_arrow.png");
+    background-image: url("../img/icons/gallery_arrow.svg");
     background-size: 100%;
     background-position: center;
     z-index: 80;
